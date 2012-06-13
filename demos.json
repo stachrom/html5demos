@@ -1,7 +1,7 @@
 [
   {
     "desc": "Stream video and filter with canvas",
-    "url": "gum-canvas",
+    "url": "demos/gum-canvas.html",
     "tags": "getUserMedia canvas",
     "support": {
       "live": "",
@@ -11,7 +11,7 @@
   },
   {
     "desc": "Stream video to the browser<br><small>Also works on Opera Mobile 12</small>",
-    "url": "gum",
+    "url": "demos/gum.html",
     "tags": "getUserMedia",
     "support": {
       "live": "",
@@ -21,7 +21,7 @@
   },
   {
     "desc": "Drag and drop and XHR upload",
-    "url": "dnd-upload",
+    "url": "demos/dnd-upload.html",
     "tags": "file dnd xhr2",
     "support": {
       "live": "chrome firefox",
@@ -31,7 +31,7 @@
   },
   {
     "desc": "Hidden property",
-    "url": "hidden",
+    "url": "demos/hidden.html",
     "tags": "hidden",
     "support": {
       "live": "chrome firefox opera safari",
@@ -41,7 +41,7 @@
   },
   {
     "desc": "Simple class manipulation",
-    "url": "classlist",
+    "url": "demos/classlist.html",
     "tags": "classlist",
     "support": {
       "live": "chrome opera firefox safari",
@@ -51,7 +51,7 @@
   },
   {
     "desc": "Storage events",
-    "url": "storage-events",
+    "url": "demos/storage-events.html",
     "tags": "storage",
     "support": {
       "live": "chrome safari opera firefox ie"
@@ -60,7 +60,7 @@
   },
   {
     "desc": "dataset (data-* attributes)",
-    "url": "dataset",
+    "url": "demos/dataset.html",
     "tags": "dataset",
     "support": {
       "live": "chrome opera safari firefox",
@@ -70,7 +70,7 @@
   },
   {
     "desc": "History API using pushState",
-    "url": "history",
+    "url": "demos/history.html",
     "notes": "Uses onpopstate event",
     "tags": "history",
     "support": {
@@ -80,7 +80,7 @@
   },
   {
     "desc": "Browser based file reading",
-    "url": "file-api-simple",
+    "url": "demos/file-api-simple.html",
     "note": "Not part of HTML5",
     "tags": "file-api",
     "support": {
@@ -90,7 +90,7 @@
   },
   {
     "desc": "Drag files directly into your browser",
-    "url": "file-api",
+    "url": "demos/file-api.html",
     "note": "Not directly part of HTML5",
     "tags": "file-api dnd",
     "support": {
@@ -100,7 +100,7 @@
   },
   {
     "desc": "Simple chat client",
-    "url": "web-socket",
+    "url": "demos/web-socket.html",
     "tags": "websocket",
     "support": {
       "live": "safari chrome",
@@ -110,7 +110,7 @@
   },
   {
     "desc": "Two videos playing in sync",
-    "url": "two-videos",
+    "url": "demos/two-videos.html",
     "tags": "video",
     "support": {
       "live": "firefox opera safari chrome ie"
@@ -119,7 +119,7 @@
   },
   {
     "desc": "Interactive canvas gradients",
-    "url": "canvas-grad",
+    "url": "demos/canvas-grad.html",
     "tags": "canvas",
     "support": {
       "live": "firefox opera safari chrome ie"
@@ -128,7 +128,7 @@
   },
   {
     "desc": "Canvas & Video",
-    "url": "video-canvas",
+    "url": "demos/video-canvas.html",
     "tags": "video canvas",
     "support": {
       "live": "firefox opera safari chrome ie"
@@ -137,7 +137,7 @@
   },
   {
     "desc": "Video",
-    "url": "video",
+    "url": "demos/video.html",
     "tags": "video",
     "support": {
       "live": "firefox opera safari chrome ie"
@@ -146,7 +146,7 @@
   },
   {
     "desc": "Canvas",
-    "url": "canvas",
+    "url": "demos/demos/canvas.html",
     "tags": "canvas",
     "support": {
       "live": "firefox opera safari chrome ie"
@@ -155,7 +155,7 @@
   },
   {
     "desc": "Content Editable",
-    "url": "contenteditable",
+    "url": "demos/contenteditable.html",
     "tags": "contenteditable storage",
     "support": {
       "live": "ie firefox opera safari chrome"
@@ -164,7 +164,7 @@
   },
   {
     "desc": "Geolocation",
-    "url": "geo",
+    "url": "demos/geo.html",
     "tags": "geolocation",
     "note": "Works on Safari Mobile too",
     "support": {
@@ -174,7 +174,7 @@
   },
   {
     "desc": "postMessage",
-    "url": "postmessage",
+    "url": "demos/postmessage.html",
     "note": "same domain",
     "tags": "postMessage",
     "support": {
@@ -184,7 +184,7 @@
   },
   {
     "desc": "postMessage",
-    "url": "postmessage2",
+    "url": "demos/postmessage2.html",
     "tags": "postMessage",
     "note": "cross domain",
     "support": {
@@ -194,7 +194,7 @@
   },
   {
     "desc": "drag and drop",
-    "url": "drag",
+    "url": "demos/drag.html",
     "tags": "dnd",
     "support": {
       "live": "ie firefox safari chrome"
@@ -203,7 +203,7 @@
   },
   {
     "desc": "drag anything",
-    "url": "drag-anything",
+    "url": "demos/drag-anything.html",
     "tags": "dnd",
     "support": {
       "live": "ie firefox safari chrome"
@@ -212,7 +212,7 @@
   },
   {
     "desc": "offline detection",
-    "url": "offline",
+    "url": "demos/offline.html",
     "tags": "offline events",
     "note": "Works on Safari Mobile too",
     "support": {
@@ -221,7 +221,7 @@
   },
   {
     "desc": "navigator.onLine tests",
-    "url": "nav-online",
+    "url": "demos/nav-online.html",
     "tags": "offline",
     "note": "Doesn't use events, only polls",
     "support": {
@@ -230,7 +230,7 @@
   },
   {
     "desc": "on/offline event tests",
-    "url": "offline-events",
+    "url": "demos/offline-events.html",
     "notes": "Opera &amp; Firefox - requires \"Work Offline\"",
     "tags": "offline events",
     "support": {
@@ -239,7 +239,7 @@
   },
   {
     "desc": "offline application using the manifest",
-    "url": "offlineapp",
+    "url": "demos/offlineapp.html",
     "note": "FF 3.6 is still buggy - doesn't request manifest after initial load",
     "tags": "offline manifest",
     "support": {
@@ -249,7 +249,7 @@
   },
   {
     "desc": "Storage",
-    "url": "storage",
+    "url": "demos/storage.html",
     "tags": "storage",
     "support": {
       "live": "ie firefox opera safari chrome"
@@ -258,7 +258,7 @@
   },
   {
     "desc": "Web SQL Database Storage",
-    "url": "database",
+    "url": "demos/database.html",
     "tags": "sql-database",
     "support": {
       "live": "safari chrome opera"
@@ -267,7 +267,7 @@
   },
   {
     "desc": "Web SQL Database - rollback test",
-    "url": "database-rollback",
+    "url": "demos/database-rollback.html",
     "tags": "sql-database",
     "support": {
       "live": "safari chrome opera"
@@ -276,7 +276,7 @@
   },
   {
     "desc": "Web Workers",
-    "url": "worker",
+    "url": "demos/worker.html",
     "tags": "workers",
     "note": "watch out - uses a lot of CPU! <a href=\"non-worker\">example without - will hang your browser</a>",
     "support": {
